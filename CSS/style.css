@@ -1,0 +1,41 @@
+body {
+  background-image: url(/Images/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+
+  .navbar-brand {
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+  }
+
+  .nav-link {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .nav-link:hover {
+    color:#50afea;
+    }
+
+    .github-btn {
+      display: inline-block;
+      transition: transform 0.3s;
+      color: black;
+    }
+    
+    .github-btn:hover {
+      transform: scale(1.5);
+    }
+
+  
+    
+    
+    
+    
+
+ 
+  
+  

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet" />
+    <link href="/CSS/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-fxozvO4hbscv3ihTgTXrWEoG3RHWkV6Y0dxF3S+ZqI1A58kR+VRf1Gz+5PzHW/pRIlu88FQO6qC26xkeohAD2g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar bg-primary-subtle fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Joel Heiser</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#Projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <header class="text-center py-5">
+      <div class="container">
+        <h1>Aspiring junior developer</h1>
+      </div>
+    </header>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+    <section id="Projects" class="text-center Projects py-5">
+      <div class="container-fluid">
+        <h2 class="mb-5">Projects</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card mb-3" style="max-width: 425px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="/Images/Chef_Site.png"
+                    class="img-fluid rounded-start"
+                    alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">Service Website</h4>
+                    <p class="card-text">
+                      Demonstration personal chef website. Made for ITD class
+                      ICR110 program using HTML, CSS, and Bootstrap.
+                    </p>
+                    <a
+                      href="https://github.com/jheiser81/Chef-Site"
+                      class="github-btn"
+                      target="_blank">
+                      <i class="fab fa-github fa-lg"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
