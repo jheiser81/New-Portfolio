@@ -20,9 +20,9 @@ body {
     color:#50afea;
     }
 
-    .card {
+    /* .card {
       height: 20rem;
-      /* max-width: 90%; */
+      max-width: 100%;
       margin: auto;
     }
 
@@ -37,7 +37,7 @@ body {
     .custom-card-img {
       object-fit:cover;
       height: 100%;
-    }
+    } */
 
    /* Style adjustments for medium screens */
 @media screen and (min-width: 768px) and (max-width: 992px) { /* adjust as necessary */
