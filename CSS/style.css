@@ -20,54 +20,13 @@ body {
     color:#50afea;
     }
 
-    /* .card {
-      height: 20rem;
-      max-width: 100%;
-      margin: auto;
-    }
-
-    .card .row {
-      height: 100%;
-    }
-
-    .car .col-md-4 {
-      height: 100%;
-    }
-
-    .custom-card-img {
-      object-fit:cover;
-      height: 100%;
-    } */
-
-   /* Style adjustments for medium screens */
-@media screen and (min-width: 768px) and (max-width: 992px) { /* adjust as necessary */
-  .card {
-    height: 30rem; /* increase the card height during transition */
-  }
-
-  .custom-card-img {
-    height: 50%; /* decrease the image height during transition */
-  }
-}
-
-/* Style adjustments for smaller screens */
-@media screen and (max-width: 768px) { /* adjust as necessary */
-  .card {
-    height: auto; /* let the card height adjust automatically on smaller screens */
-  }
-
-  .custom-card-img {
-    height: auto; /* let the image height adjust automatically on smaller screens */
-  }
-}
-
-    .github-btn {
+  .github-btn {
       display: inline-block;
       transition: transform 0.3s;
       color: black;
     }
     
-    .github-btn:hover {
+  .github-btn:hover {
       transform: scale(1.5);
     }
 
