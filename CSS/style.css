@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
   padding-top: 50px;
 }
-
   .navbar-brand {
     font-size: 36px;
     color: #333;
@@ -20,6 +19,30 @@ body {
     color:#50afea;
     }
 
+    .project-section-wrapper {
+      background-color: rgba(0, 0, 0, 0.10);
+      /* padding-top: 20px; */
+      padding-bottom: 60px;
+      margin: 20px;
+      border-radius: 20px;
+    }
+
+    .about-section-wrapper {
+      background-color: rgba(89, 159, 239, 0.1);
+      /* padding-top: 20px; */
+      padding-bottom: 60px;
+      margin: 20px;
+      border-radius: 20px;
+    }
+
+    .contact-section-wrapper {
+      background-color: rgba(0, 0, 0, 0.10);
+      /* padding-top: 20px; */
+      padding-bottom: 60px;
+      margin: 20px;
+      border-radius: 20px;
+    }
+
   .github-btn {
       display: inline-block;
       transition: transform 0.3s;
@@ -29,6 +52,29 @@ body {
   .github-btn:hover {
       transform: scale(1.5);
     }
+
+     section {
+      padding-top: 20px; 
+    }  
+    
+    .about-text {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      max-width: 600px;  
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+    }
+    
+    ul {
+      list-style-type: square;
+    }
+
+    .message-box {
+      width: 100%;
+    }
+    
 
   
     
